@@ -8,7 +8,7 @@ var randomNum2 = Math.floor((Math.random() * 6) + 1);
 
 var randomDiceImage = "dice"+randomNum1+".png";
 
-var randomImageSource = "D:\\Web Development\\Section1 2 - Dicee Challenge - Starting Files\\images\\" + randomDiceImage;
+var randomImageSource =  randomDiceImage;
 
 var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomImageSource);
@@ -17,7 +17,7 @@ image1.setAttribute("src", randomImageSource);
 
 var randomDiceImage2 = "dice"+randomNum2+".png";
 
-var randomImageSource2 = "D:\\Web Development\\Section1 2 - Dicee Challenge - Starting Files\\images\\" + randomDiceImage2;
+var randomImageSource2 =  randomDiceImage2;
 
 var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImageSource2);
